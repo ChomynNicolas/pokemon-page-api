@@ -139,24 +139,14 @@ nav{
   padding: 0 10px;  
   margin-bottom: 10px;
   background-color: rgba(127, 186, 9, 0.654);
-  border-right: 1px solid rgb(177, 255, 61);
-  border-radius: 0 0px 5px 10px;
+  border-left: 1px solid rgb(177, 255, 61);
+  border-radius: 0 5px 5px 10px;
   bottom: -50px;
   left: -16px;
   
+  
 }
 
-.border-stats{
-  position: absolute;
-  width: 104px;
-  
-  
-  border-bottom: 1px solid rgb(177, 255, 61) ;
-  border-bottom-right-radius: 100px;
-  bottom: 0;
-  left: 129px;
-
-}
 
 .ocult{
   display: none;
@@ -197,7 +187,7 @@ nav{
   padding: 5px 10px;
   border: 1px solid rgb(177, 255, 61);
   border-bottom: none;
-  border-left: none;
+  
   border-radius: 5px 5px 0px 0px;
   letter-spacing: 2px;
   font-weight: 500;

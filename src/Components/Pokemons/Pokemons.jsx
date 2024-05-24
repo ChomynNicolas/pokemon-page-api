@@ -40,7 +40,7 @@ export default function Pokemons() {
                 <p className="peso" >Peso: {pokemonsStats[index].height}</p>
                 <p className="altura">Altura: {pokemonsStats[index].weight}</p>
                 <span className="verStats">Estadisticas</span>
-                <div className="border-stats"></div>
+                
                 <div className="stats-div">
                   <p>Hp <spam className="hp">{pokemonsStats[index].stats[0].base_stat}</spam></p>
                   <p>Atk <spam className="atk">{pokemonsStats[index].stats[1].base_stat}</spam></p>
